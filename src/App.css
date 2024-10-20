@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #333;
+  padding: 10px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header h1 {
   color: white;
+  display: inline-block;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  display: inline-block;
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 50px;
+  margin-top: 20px;
+}
+
+#introduction {
+  background-color: #f9f9f9;
+}
+
+#family {
+  background-color: #e9e9e9;
+}
+
+#education {
+  background-color: #d9d9d9;
+}
+
+#certificates {
+  background-color: #c9c9c9;
+}
+
+#contributions {
+  background-color: #b9b9b9;
 }
